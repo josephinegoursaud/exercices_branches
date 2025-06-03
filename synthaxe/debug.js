@@ -17,7 +17,7 @@ let reduction = total*0,2
 console.log("reduction, reduction")
 let finalPrice = total - reduction
 
-let a1 = 10
+let a1 = 
 let a2 = 20
 
 //const tot = a1 + a2
