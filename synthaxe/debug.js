@@ -13,21 +13,21 @@
 
 
 //Nous appliquons 20% de reduction
-let reduction = total*0,2
-console.log("reduction, reduction")
-let finalPrice = total - reduction
+//let reduction = total*0,2
+//console.log("reduction, reduction")
+//let finalPrice = total - reduction
 
-let a1 = 
-let a2 = 20
+//let a1 = 10
+//let a2 = 20
 
 //const tot = a1 + a2
 //console.log ( "le prix total avant reduction est de:", tot)
-let tot = a1 + a2
+//let tot = a1 + a2
 
-let a3 = "50"
-tot = tot + a3
-let tot2 = tot - tot*0,2
-console.log("le prix total avant reduction est de :", tot)
-console.log("le prix total après reduction est de : ", tot2)
+//let a3 = "50"
+//tot = tot + a3
+//let tot2 = tot - tot*0,2
+//console.log("le prix total avant reduction est de :", tot)
+//console.log("le prix total après reduction est de : ", tot2)
 
 
