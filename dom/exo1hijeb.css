@@ -1,0 +1,24 @@
+body {
+
+        text-align: center;
+    }
+
+#carre {
+            width: 100px;
+            height: 100px;
+            background-color: greenyellow;
+            align-items: center;
+            margin: auto; 
+            
+
+}
+
+    #rouge{
+    background-color: red;
+    }
+    #vert{
+        background-color: green;
+    }
+    #bleu{
+        background-color: blue;
+    }
