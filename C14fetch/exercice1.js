@@ -2,10 +2,13 @@
 // console.log(promise);
 
 async function fetchdata() {
+   const onload=document.getElementById("onload")
+    onload.innerText="en chargement"
     const response = await fetch("https://www.codepassport.dev/api/offers")
     const data = await response.json()
 
     const titleetdescription = document.getElementById("titleetdescription")
+
 
     for (let i = 0; i < data.length; i++) {
   
@@ -16,8 +19,11 @@ async function fetchdata() {
   const paragraphe = document.createElement('p');
   titleetdescription.appendChild(paragraphe);
   paragraphe.innerHTML = data[i].description;
+
+  onload.style.display= "none"
 }
     //console.log(data)
+
 }
 fetchdata()
 //    const title= document.createElement('h2');
